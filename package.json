@@ -1,0 +1,17 @@
+{
+  "name": "superadminewshe",
+  "version": "1.0.0",
+  "description": "Automation of the Super Admin Role for project Amplio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mary Chineze . N Enwezor",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.11.0"
+  },
+  "dependencies": {
+    "prettier": "^3.3.1"
+  }
+}

@@ -2,11 +2,11 @@ export class Login {
     
     
     email(){
-        cy.get('#email').clear().type('moayeniko@gmail.com')
+        cy.get('#email').clear().type('moao@gmail.com')
     }
     
     password(){
-        cy.get('#password').clear().type('fincode46')
+        cy.get('#password').clear().type('dauntcode46')
     }
 
     loginButton(){
@@ -16,7 +16,7 @@ export class Login {
     
     organizationModule(){
         cy.get('span').contains('Organization').click()
-        cy.get('p.mui-1cbp5hz', {timeout:20000}).should('be.visible','have.text', "SYSTEMADMIN")
+        cy.get('p.mui-1cbp5hz', {timeout:20000}).should('be.visible','have.text', "ADMIN")
     }
  
     deactivateAndActivateToggle(){
